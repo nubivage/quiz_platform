@@ -1,0 +1,318 @@
+{
+  "summary": {
+    "backend": "https://quiz-platform-backend-0s7r.onrender.com",
+    "simulatedPlayers": 5,
+    "questionsProcessed": 10,
+    "answerAttempts": 50,
+    "successfulAnswers": 50,
+    "failedAnswers": 0,
+    "errorRatePercent": 0,
+    "averageAcknowledgementLatencyMs": 218.56,
+    "medianAcknowledgementLatencyMs": 219,
+    "p95AcknowledgementLatencyMs": 239,
+    "elapsedSeconds": 107.059,
+    "successfulAnswersPerSecond": 0.467032197199675
+  },
+  "events": [
+    {
+      "question": 1,
+      "latencyMs": 226,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 1,
+      "latencyMs": 233,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 1,
+      "latencyMs": 239,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 1,
+      "latencyMs": 234,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 1,
+      "latencyMs": 234,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 2,
+      "latencyMs": 210,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 2,
+      "latencyMs": 215,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 2,
+      "latencyMs": 236,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 2,
+      "latencyMs": 243,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 2,
+      "latencyMs": 237,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 3,
+      "latencyMs": 213,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 3,
+      "latencyMs": 219,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 3,
+      "latencyMs": 236,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 3,
+      "latencyMs": 228,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 3,
+      "latencyMs": 244,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 4,
+      "latencyMs": 192,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 4,
+      "latencyMs": 195,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 4,
+      "latencyMs": 237,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 4,
+      "latencyMs": 233,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 4,
+      "latencyMs": 232,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 5,
+      "latencyMs": 195,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 5,
+      "latencyMs": 196,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 5,
+      "latencyMs": 214,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 5,
+      "latencyMs": 214,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 5,
+      "latencyMs": 215,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 6,
+      "latencyMs": 222,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 6,
+      "latencyMs": 230,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 6,
+      "latencyMs": 239,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 6,
+      "latencyMs": 210,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 6,
+      "latencyMs": 223,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 7,
+      "latencyMs": 220,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 7,
+      "latencyMs": 232,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 7,
+      "latencyMs": 235,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 7,
+      "latencyMs": 232,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 7,
+      "latencyMs": 235,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 8,
+      "latencyMs": 199,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 8,
+      "latencyMs": 204,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 8,
+      "latencyMs": 209,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 8,
+      "latencyMs": 217,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 8,
+      "latencyMs": 216,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 9,
+      "latencyMs": 197,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 9,
+      "latencyMs": 201,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 9,
+      "latencyMs": 205,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 9,
+      "latencyMs": 223,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 9,
+      "latencyMs": 226,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 10,
+      "latencyMs": 188,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 10,
+      "latencyMs": 191,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 10,
+      "latencyMs": 200,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 10,
+      "latencyMs": 200,
+      "success": true,
+      "error": ""
+    },
+    {
+      "question": 10,
+      "latencyMs": 204,
+      "success": true,
+      "error": ""
+    }
+  ]
+}

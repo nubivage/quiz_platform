@@ -1,7 +1,15 @@
 require('dotenv').config();
 const express=require('express'); const http=require('http'); const cors=require('cors'); const {Server}=require('socket.io');
 const {createRepository}=require('./store'); const {questions}=require('./questions');
-const app=express(); app.use(cors({origin:process.env.CORS_ORIGIN?.split(',')||'*'})); app.get('/health',(req,res)=>res.json({status:'ok'}));
+const app=express(); 
+app.get('/debug-runtime', (req, res) => {
+  res.json({
+    nodeVersion: process.version,
+    platform: process.platform,
+    architecture: process.arch
+  });
+});
+app.use(cors({origin:process.env.CORS_ORIGIN?.split(',')||'*'})); app.get('/health',(req,res)=>res.json({status:'ok'}));
 const server=http.createServer(app); const io=new Server(server,{cors:{origin:process.env.CORS_ORIGIN?.split(',')||'*',methods:['GET','POST']}}); const db=createRepository();
 const rooms=new Map();
 const now=()=>Date.now(); const roomCode=()=>Math.random().toString(36).slice(2,8).toUpperCase();
