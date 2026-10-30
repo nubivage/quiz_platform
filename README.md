@@ -22,6 +22,16 @@ This platform was rigorously benchmarked and evaluated as part of an academic re
 
 ---
 
+## 🚀 Live Demo
+
+Experience the platform live:
+* **Frontend App:** [https://your-frontend-url.onrender.com](https://your-frontend-url.onrender.com)
+* **Backend API / Socket Endpoint:** [https://your-backend-url.onrender.com](https://your-backend-url.onrender.com)
+
+> **Note:** Because the backend is hosted on a free Render tier instance, it may take ~50 seconds to spin up if it has been inactive[cite: 16].
+
+---
+
 ## Technical Architecture & Methodology
 
 ```text
@@ -35,3 +45,4 @@ This platform was rigorously benchmarked and evaluated as part of an academic re
                                                                +-----------------------+
                                                                |   Embedded SQLite DB  |
                                                                +-----------------------+
+
